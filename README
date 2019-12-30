@@ -1,0 +1,29 @@
+This software helps you to sincronize locally your cloud recordings from spanish IPTV provider Movistar by the use of telegram bot.
+Configuration:
+All you need are 3 params that you have to modify at botmovistar.py:
+-API_TOKEN: Token from Botfather
+-DOWNLOAD_PATH: Path where you want your recordings to be sincronized
+-USERID: Your telegram UserID, in order to avoid other telegram users from fullfilling your disk space
+
+Running:
+Just execute "python3 botmovistar.py"  and then send \descarga message to your bot by telegram 
+ 
+This software must run from inside your local network , preferably with a wired connection to the router.
+Raspberry pi model B could be a perfect candidate for hosting this script
+
+contact: botmakerdvd@gmail.com  
+
+
+
+Este software te ayudará a sincronizar a local tus grabaciones de la nube de Movistar mediante el uso de un bot de telegram.
+Configuración:
+Unicamente necesitas 3 parámetros:
+-API_TOKEN: Token desde Botfather
+-DOWNLOAD_PATH: Directorio donde quieres que tus grabaciones queden almacenadas
+-USERID: Tu UserID de telegram, para evitar que otros usuarios provoquen dejarte sin espacio en disco
+
+Ejecución:
+Ejecuta "python3 botmovistar.py" y después enviale el comando "\descarga" a tu bot mediante telegram
+
+Este software debe ser ejecutado desde dentro de tu red local, preferiblemente con una conexión cableada al router.
+contacto: botmakerdvd@gmail.com
