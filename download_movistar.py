@@ -19,7 +19,7 @@ def download_movistar(productID, serviceuid, path):
     decoded =json.loads(s.decode('utf-8'))
     downloadurl=decoded['resultData']['url']
     valueend=downloadurl.find(":554")
-    urlserver=downloadurl[7:valueend]
+    urlserver="172.26.81.5"#downloadurl[7:valueend]
     name=decoded['resultData']['name']                                                     
     tiempo=decoded['resultData']['endTime'] - decoded['resultData']['beginTime']
     ts = int(decoded['resultData']['beginTime']/1000)
